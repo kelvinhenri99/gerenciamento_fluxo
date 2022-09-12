@@ -1,0 +1,84 @@
+body {
+    background: linear-gradient(to right, rgb(103, 44, 162), rgb(67, 40, 219), rgb(103, 44, 162));
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.divHomeTituloPrincipal h1{
+    color: white;
+    text-shadow: 0px 0px 1px black,
+                 0px 0px 4px black;
+    margin-top: 50px;
+    font-size: 37px;
+}
+
+.divHomeTituloPrincipal h1 span {
+    font-size: 20px;
+}
+
+.divHomeAgenda {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px rgb(24, 24, 24);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.377);
+    padding-bottom: 80px;
+}
+
+.divHomeAgenda h1 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 1px black,
+                 0px 0px 4px black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divGridAgenda {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px 5px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.divGridAgenda div {
+    background-color: white;
+    color: blueviolet;
+    box-shadow: 0px 0px 5px rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+    transition: 0.7s;
+}
+
+.divGridAgenda a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.divGridAgenda div:hover {
+    background-color: rgb(24,24,24);
+    color: violet;
+}
+
+.divHomeCadastrar h1 {
+    font-size: 35px;
+    color: white;
+    text-shadow: 0px 0px 1px black,
+                 0px 0px 4px black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.divCadastrarForm {
+    width: 500px;
+    background-color: #dadada;
+    margin: 0 auto;
+}
